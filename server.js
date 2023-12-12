@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 app.get('/', (req,res) =>{
     res.setHeader("Access-Control-Allow-Credentials", "true")
 })
-
+// comment
 
 //grabs all routes in router
 app.use('/attractions', cincy);
